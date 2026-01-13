@@ -2,82 +2,107 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<title>Trang giới thiệu kiểu Gauapple</title>
+<title>Trần Gia Huy</title>
+
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background: #333;
-    padding: 15px;
-  }
-  header nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  .container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-  }
-  .post {
-    background: white;
-    border-radius: 6px;
-    padding: 18px;
-    margin-bottom: 16px;
-  }
-  .post h2 {
-    margin-top: 0;
-  }
-  footer {
-    text-align: center;
-    padding: 15px;
-    background: #ddd;
-    margin-top: 30px;
-    font-size: 14px;
-  }
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f4f4;
+}
+
+/* MENU */
+header{
+  background:#222;
+  padding:15px;
+}
+header a{
+  color:#fff;
+  margin-right:18px;
+  text-decoration:none;
+  font-weight:bold;
+}
+header a:hover{
+  text-decoration:underline;
+}
+
+/* NỘI DUNG */
+.container{
+  max-width:900px;
+  margin:30px auto;
+  background:#fff;
+  padding:30px;
+  border-radius:8px;
+}
+
+/* MẠNG XÃ HỘI */
+.social{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:15px;
+}
+.social a{
+  padding:10px 16px;
+  border-radius:6px;
+  color:#fff;
+  text-decoration:none;
+  font-size:14px;
+}
+.fb{background:#1877f2;}
+.zalo{background:#0068ff;}
+.tt{background:#000;}
+.yt{background:#ff0000;}
+.threads{background:#000;}
+
+footer{
+  text-align:center;
+  margin-top:30px;
+  color:#777;
+  font-size:14px;
+}
 </style>
 </head>
+
 <body>
 
 <header>
-  <nav>
-    <a href="#">Trang Chủ</a>
-    <a href="#apps">Apps & Games</a>
-    <a href="#info">Thông Tin</a>
-    <a href="#idfree">ID Apple Free</a>
-  </nav>
+  <a href="#">Trang chủ</a>
+  <a href="#gioithieu">Giới thiệu</a>
+  <a href="#mxh">Mạng xã hội</a>
+  <a href="#lienhe">Liên hệ</a>
 </header>
 
 <div class="container">
-  <div class="post">
-    <h2>Bài viết mới nhất</h2>
-    <p>Gauapple Share ID Apple Free Tải Game & Apps Miễn Phí Cho iPhone iPad</p>
+
+  <h1>Trần Gia Huy</h1>
+  <p>Trang web giới thiệu cá nhân</p>
+
+  <h2 id="gioithieu">Giới thiệu</h2>
+  <p>
+    Đây là website cá nhân của Trần Gia Huy, dùng để giới thiệu bản thân
+    và liên kết các nền tảng mạng xã hội.
+  </p>
+
+  <h2 id="mxh">Mạng xã hội</h2>
+  <div class="social">
+    <a class="fb" href="https://facebook.com/yourname" target="_blank">Facebook</a>
+    <a class="zalo" href="https://zalo.me/yourid" target="_blank">Zalo</a>
+    <a class="tt" href="https://tiktok.com/@yourname" target="_blank">TikTok</a>
+    <a class="yt" href="https://youtube.com/@yourname" target="_blank">YouTube</a>
+    <a class="threads" href="https://www.threads.net/@yourname" target="_blank">Threads</a>
   </div>
 
-  <div class="post" id="apps">
-    <h2>Apps & Games</h2>
-    <p>Thông tin tải game, đánh giá và giới thiệu app.</p>
-  </div>
+  <h2 id="lienhe">Liên hệ</h2>
+  <p>Email: your-email@gmail.com</p>
 
-  <div class="post" id="info">
-    <h2>Thông Tin & Hướng Dẫn</h2>
-    <p>Hướng dẫn cách nhận ưu đãi, dùng công cụ, ...</p>
-  </div>
-
-  <div class="post" id="idfree">
-    <h2>ID Apple Free</h2>
-    <p>Tổng hợp ID Apple miễn phí mới nhất.</p>
-  </div>
 </div>
 
-<footer>© 2026 Trang kiểu Gauapple</footer>
+<footer>
+  © 2026 Trần Gia Huy
+</footer>
 
 </body>
 </html>
+
 
